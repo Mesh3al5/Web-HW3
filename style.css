@@ -1,0 +1,12 @@
+body{
+    background-color: aqua;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+  align-items: center;
+  padding-top: 100px;
+ margin-top: 230px;
+}
