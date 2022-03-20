@@ -19,8 +19,8 @@
         
     <nav class="navbar navbar-light bg-light">
         <div class="container-fluid">
-          <a class="navbar-brand">
-            <img src="./img/photocamera_78932.png" alt="" width="30" height="24" class="d-inline-block align-text-top">
+          <a class="navbar-brand"  href="./index.html">
+            <img src="./img/photocamera_78932.png"  href="./index.html" width="30" height="24" class="d-inline-block align-text-top">
          Picture
         </a>
        
@@ -55,7 +55,7 @@
             <div class="card-body">
               <h5 class="card-title">Canon 90d</h5>
               <p class="card-text">440KD</p>
-              <a href="#" class="btn btn-primary">Add to cart</a>
+              <a  class="btn btn-primary">Add to cart</a>
             </div>
           </div>
 
@@ -64,7 +64,7 @@
             <div class="card-body">
               <h5 class="card-title">Canon c300 </h5>
               <p class="card-text"> 1350KD</p>
-              <a href="#" class="btn btn-primary">Add to cart</a>
+              <a  class="btn btn-primary">Add to cart</a>
             </div>
           </div>
 
@@ -73,7 +73,7 @@
             <div class="card-body">
               <h5 class="card-title">Canon R5 </h5>
               <p class="card-text">899KD</p>
-              <a href="#" class="btn btn-primary">Add to cart</a>
+              <a  class="btn btn-primary">Add to cart</a>
             </div>
           </div>
         </div>  
@@ -83,7 +83,7 @@
               <div class="card-body">
                 <h5 class="card-title">Canon R6</h5>
                 <p class="card-text">799KD</p>
-                <a href="#" class="btn btn-primary">Add to cart</a>
+                <a  class="btn btn-primary" onclick="addItem('Canon R6' ,'799KD' )"  id="item">Add to cart</a>
               </div>
             </div>
   
@@ -101,14 +101,16 @@
               <div class="card-body">
                 <h5 class="card-title">Canon 2000D </h5>
                 <p class="card-text">120KD</p>
-                <a onclick="cart()" class="btn btn-primary">Add to cart</a>
+                <a onclick="addItem('Canon 2000D' ,'120KD' )"  id="item" class="add-to-cart btn btn-primary" class="btn btn-primary">Add to cart</a>
               </div>
             </div>
           </div>  
   
 
-<div id="fotter">
+<div id="fotter">  
   <h1 class="cart">cart</h1>
+
+  <div id="cart"></div>
 </div>
 
 

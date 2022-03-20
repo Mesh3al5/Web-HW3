@@ -1,11 +1,21 @@
-const BtnAdd = document.querySelector(".btn-add");
-const DivContainer = document.getElementById("div-container");
 
-BtnAdd.addEventListener("click", AddNew);
+function addItem(model,price){
+    console.log(model,price)
+    
+    
+ let div = document.getElementById("cart") ;
+div.innerHTML = `
+<h5>${model}</h5>
+<p>${price}</p>
+`
 
-function AddNew() {
-  const newDiv = document.createElement("div");
-  console.log("add");
-  newDiv.classList.add("div-shadow");
-  DivContainer.appendChild(newDiv);
+
+
+
 }
+
+function sum(number1,number2){
+    return number1 + number2
+    
+} 
+console.log(sum(9,5))
